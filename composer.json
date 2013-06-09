@@ -16,7 +16,7 @@
         "classmap":[
             "src/Tsmith86/Redditapi/Reddit.php",
             "src/Tsmith86/Redditapi/Connector.php",
-            "src/Tsmith86/Redditapi/RedditUsers.php",
+            "src/Tsmith86/Redditapi/RedditUsers.php"
         ],
         "psr-0": {
             "Tsmith86\\Redditapi": "src/"
