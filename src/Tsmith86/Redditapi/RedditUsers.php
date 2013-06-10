@@ -16,4 +16,13 @@ class RedditUsers extends  Reddit
 		return 'users woot';
 	}
 
+
+	public function userlogin($username , $password )
+	{
+		$url = $this->apiUrl."/login/$username";
+
+		$postdata = "api_type=json&user=$username&passwd=$password";
+
+		$response = $this->connector->request();
+	}
 }
